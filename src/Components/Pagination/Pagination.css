@@ -1,0 +1,49 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+h1 {
+  color: #612f34;
+  font-style: normal;
+}
+.Pagination-btn {
+  padding: 10px;
+  margin: 0px 5px;
+  cursor: pointer;
+  color: #f5405a;
+  border-radius: 4px;
+  border: 1px solid #f5405a;
+  background-color: #ffff;
+}
+.Pagination-btn.active {
+  background-color: #d93850;
+  box-shadow: 0px 0px 6px #f2556c;
+  color: #ffff;
+  border: none;
+}
+.Pagination-btn:disabled {
+  color: #64686b;
+  background-color: #cbd0d4;
+  cursor: not-allowed;
+  border: none;
+  box-shadow: none;
+}
+.list-items {
+  list-style: none;
+  display: grid;
+  gap: 15px;
+  max-width: 500px;
+  padding: 0;
+  margin: 20px auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.list-items li {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #d17d84;
+  color: #612f34;
+  border-radius: 5px;
+}

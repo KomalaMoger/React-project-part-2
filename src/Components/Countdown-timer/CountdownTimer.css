@@ -1,0 +1,39 @@
+.countdown-timer-container {
+  margin: 20px 0px;
+}
+.countdown-timer-container h1 {
+  color: #1d2b75;
+  display: flex;
+  justify-content: center;
+}
+.timer p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #637cf7;
+}
+.timer-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.timer-btns button {
+  padding: 12px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  color: #1d2b75;
+}
+.timer-btns button:hover {
+  box-shadow: 0px 0px 6px rgba(148, 187, 233, 1);
+}

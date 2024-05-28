@@ -1,0 +1,91 @@
+.filter-products-container {
+  margin-top: 30px;
+}
+.filter-products-container h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.list-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+}
+.list-products li {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  list-style: none;
+  padding: 20px;
+  height: 50vh;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 10px;
+  border-radius: 5px;
+}
+.list-products .beautyactive {
+  background-image: url("https://images.pexels.com/photos/7256102/pexels-photo-7256102.jpeg?auto=compress&cs=tinysrgb&w=500");
+  color: rgb(255, 255, 231);
+}
+.list-products .fragrancesactive {
+  background-image: url("https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=500&dpr=1");
+}
+.list-products .furnitureactive {
+  background-image: url("https://images.pexels.com/photos/271647/pexels-photo-271647.jpeg?auto=compress&cs=tinysrgb&w=600");
+  color: rgb(108, 58, 58);
+}
+
+.list-products .groceriesactive {
+  background-image: url("https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=450");
+  color: rgb(60, 54, 67);
+}
+.list-products .beautyactive button {
+  background-color: rgb(152, 75, 75);
+  color: beige;
+}
+.list-products .furnitureactive button {
+  background-color: rgb(108, 58, 58);
+  color: beige;
+}
+.list-products .groceriesactive button {
+  background-color: #6c3a3a;
+  color: beige;
+}
+.list-products p {
+  display: flex;
+  justify-content: center;
+}
+.list-products button {
+  margin: 0 auto;
+  width: 10vw;
+  padding: 10px 0px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.filter-unquieCategory-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.filter-unquieCategory-container button {
+  padding: 8px 14px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+}
+.filter-unquieCategory-container button.active {
+  background-color: black;
+  color: white;
+}
